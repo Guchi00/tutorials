@@ -7,12 +7,12 @@ feet = 7;
 let height = 9.5;
 
 //String
-const name = 'loveth';
-const phone = "iphone12ProMax";
+const name = 'Loveth';
+const phone = "iphone 12 Pro Max";
 
-let movie = "theSunRise";
+let movie = "The Sun Rise";
 let footWear;
-footWear = 'boyfriendShoe';
+footWear = 'Boyfriend Shoe';
 
 //Boolean
 const ugochiFirstBornChild = false;
@@ -25,40 +25,93 @@ let areAllMenDark = false;
 
 //Object
 const girl = {
-    firstName:'ngozi',
-    middleName: 'blessing',
+    firstName:'Ngozi',
+    middleName: 'Blessing',
     age: 17,
-    eyeColor: 'grey',
+    eyeColor: 'Grey',
     sheIsDarkInComplexion: false,
     shoes: ['wage', 'heel', 'flate']
 };
 
 const halfOfAYellowSun = {
-    author: "chimamandaNgoziAdichie",
+    author: "Chimamanda Ngozi Adichie",
     publishedYear: "2006",
     noOfPages: 448,
     consistOfNigeriaBiafraWar: true,
     theAuthorYoruba: false,
-    countriesOfCirculation: ["nigeria", "unitedStateOfAmerica", "france", "canada"]
+    countriesOfCirculation: ["Nigeria", "United State Of America", "France", "Canada"]
 };
 
 let countryNigeria = {
-    federalTerritory: 'abuja',
+    federalTerritory: 'Abuja',
     noStates: 36,
     localGovernment774: true,
-    state: ['lagos', 'anambra', 'imo', 'ogun']
+    state: ['Lagos', 'Anambra', 'Imo', 'Ogun']
 };
 
 let house;
 house = {
-    rooms: "eight",
-    color: "whiteAndGrey",
+    rooms: "Eight",
+    color: "White and Grey",
     storyBuilding: 2,
     bungalow: false,
-    occupant: ["father", "mother", "children"]
+    occupant: ["Father", "Mother", "Children"]
 };
 
 //Array
+const luthDailyPatientHeight = [
+    9.5,
+    7.7,
+    5.1,
+    10.6
+];
+const noOfweeklySuicideInUsa = [
+    27,
+    57,
+    35,
+    45
+];
+let studentAgeInJss1Class = [
+    9,
+    11,
+    12,
+    13
+];
+let noOFMacCoursesForYear1;
+noOfMacCoursesForYear1 = [
+    101,
+    102,
+    103,
+    104
+];
+
+const allMenScum = [
+    false,
+    true,
+    true,
+    false
+];
+const nigeriaADotNation = [
+    true,
+    false,
+    true,
+    true
+];
+
+let suicideWayOfLife;
+suicideWayOfLife = [
+    false,
+    false,
+    false,
+    false
+];
+let ratAMammal = [
+    true,
+    true,
+    true,
+    true
+];
+
 const cars = [
     'bmw', 
     'volvo', 
@@ -66,9 +119,9 @@ const cars = [
     'peugeot'
 ];
 const fan = [
-   {modern: "lontor", color: "whiteAndGrey"},
-   {modern: "lg", color: "darkBlue"},
-   {modern: "swiss", color: "black"}
+    {model: "lontor", color: "White and Grey"},
+    {model: "lg", color: "darkBlue"},
+    {model: "swiss", color: "black"}
 ];
 
 let  listOfPrimaryColor;
@@ -78,9 +131,9 @@ listOfPrimaryColor = [
     "blue"
 ];
 let myWardrobeItems = [
-    {gucci: 'boyfriendShoe', color: 'black', size: '38'},
-    {balenciaga: 'bag', color: 'red', size: '3.5inches'},
-    {chanel: 'sunglasses', color: 'white', size: '5.5inches'}
+    {brandName: 'gucci', type: 'boyfriend shoe', color: 'black', size: '38'},
+    {brandName: 'balenciaga', type: 'bag', color: 'red', size: '3.5inches'},
+    {brandName: 'chanel', type: 'sunglasses', color: 'white', size: '5.5inches'}
 ];
 
 
