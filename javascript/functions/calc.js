@@ -68,12 +68,14 @@ function divide() {
 
   resEl.innerHTML = result;
 }
-   function getValues() {
+
+function getValues() {
   const num1El = document.getElementById('num1');
   const num2El = document.getElementById('num2');
 
   const x = Number(num1El.value);
   const y = Number(num2El.value);
 
-  return {firstValue: x, secondValue: y};
+
+  return { firstValue: x, secondValue: y };
 }
