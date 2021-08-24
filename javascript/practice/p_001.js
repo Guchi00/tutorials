@@ -4,12 +4,12 @@
 
 function theGreaterNumber(numb1, numb2) {
     if (numb1 < numb2) {
-        return numb2;
+        return 'numb2'
     } else {
-        return numb1;
+        return 'numb1'
     }
 }
-//console.log(theGreaterNumber(2,10));
+console.log(theGreaterNumber(2,10));
 
 
 //Create a function that accepts the age and prints 
@@ -30,7 +30,7 @@ function ageFunc(age) {
     if (age >= 18) {
         return "Come in you are an adult"
     } else if (age >= 16) {
-        let a = 19 - age;
+        let a = 18 - age;
         let x = "come back in "
         let z = " years time"
 
@@ -52,11 +52,11 @@ let d = a + b + c;
 
 function myAgeFunction(age) {
     if (age >= 25) {
-        return "legible for mariage"
-    } else (age <= 24); {
+        return "legible for marriage"
+    } else if (age <= 24); {
         let a = 25 - age;
         let b = "not suitable for marriage wait to "
-        let c = " years time "
+        let c = " years time "                  
 
         let d = b + a + c;
         return d;
@@ -82,7 +82,7 @@ function calFunction(numb1, numb2, operator) {
     } else if (operator === "multiplication") {
         return numb1 * numb2;
     } else {
-        return "operator not recognized";
+        return "operation not recognized";
     }
 }
 
@@ -118,8 +118,8 @@ function reverseAWord(word) {
 //console.log(reverseAWord('hello'));
 
 
-//Create a greeting function that accepts a string
-//parameter and returns a greeting.(either morning, aft)
+//Create a greeting function that accepts an
+//arguement and returns a greeting.(either morning, aft)
 
 function greetingFunction(time) {
     if (time >= 0 && time <= 11) {
