@@ -76,6 +76,5 @@ function getValues() {
   const x = Number(num1El.value);
   const y = Number(num2El.value);
 
-
   return { firstValue: x, secondValue: y };
 }
