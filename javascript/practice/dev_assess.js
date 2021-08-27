@@ -12,7 +12,8 @@ function abbreviatedFun(fullname) {
     return result;
   
 }
-//console.log(abbreviatedFun('jonny just come'));
+console.log(abbreviatedFun('jonny just come'));
+
 //Write a function that takes a fullname and returns a shorter version of the name.
 //The function should return the abbreviated output by returning a string that con-
 //tains the first letter of each name followed by a period and the complete last name.

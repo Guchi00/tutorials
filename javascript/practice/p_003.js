@@ -78,7 +78,7 @@ console.log(theAgeFunction(17));
 
 
 //Create a function that calculates, it accepts two numbers and a string.
-function calculateFunction(num, num2, operate) {
+function calculateFunction(operate, num, num2) {
     if (operate === 'addition') {
         return num + num2;
     } else if (operate === 'multiplication') {
@@ -89,7 +89,7 @@ function calculateFunction(num, num2, operate) {
         return num - num2;
     }
 }
-console.log(calculateFunction(20, 2, 'subtraction'));
+console.log(calculateFunction('addition', 20, 2));
 
 
 
