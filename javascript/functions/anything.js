@@ -55,64 +55,13 @@
 //problemSolving(13,10);
 
 
-//Tast 1: Create a function that takes a string and
-//reverses the character in it.
-
-//for loop
-//The accessing below are what i figured out in order
-//to solove the task.
-
-//example
-//string[0]
-//console.log(string[0]);
-//string[1]
-//console.log(string[1]);
-//string[2]
-//console.log(string[2]);
-//string[3]
-//console.log(string[3]);
-//string[4]
-//console.log(string[4]);
-
-//let string = "hello";
-//for(let i = 0; i < string.length; i++) {
-   // console.log(string[i]);
-//}
-
-//forward loop
-//let a = "hello";
-//for(let i = 0; i < a.length; i++) {
-    //console.log(a[i]);
-//}
-
-//backward loop
-//let strB = "hello";
-//for(let i = strB.length - 1; i >= 0; i--) {
-    //console.log(strB[i]);
-//}
-let strB = "hello"
-function reverseString(strB) {
-    let result = '';
-
-    for(let i = strB.length - 1; i >= 0; i--) {
-       result = result += strB[i];
-}
-return result;
-
-}
-console.log(reverseString('hello'));
-
-
-
-
-let str = 'hello'
-
-let array = str.split('');
-console.log(array);
-
-array.reverse();
-console.log(array);
-
-let wantString = array.join('');
-console.log(wantString);
-
+function testGreaterThan(val) {
+    if (val > 100) { // Change this line
+      result = "Over 100";
+    
+    }else (val > 10)   // Change this line
+      result = "Over 10";
+    }
+  
+  
+  testGreaterThan(10);
