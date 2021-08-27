@@ -31,7 +31,7 @@ function sum(x, y, z) {
     return x + y + z;
 }
 
-function substract() {
+function substrac() {
     const number1El = document.getElementById("name1");
     const number2El = document.getElementById("name2");
     const number3El = document.getElementById("name3");
