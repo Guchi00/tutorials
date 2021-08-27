@@ -13,6 +13,61 @@ function add() {
     //displays the result
 }
 
-function sum(x, y) {
-    return x + y;
+function sum(x, y, z) {
+    return x + y + z;
+}
+
+function substrac() {
+    const number1El = document.getElementById("name1");
+    const number2El = document.getElementById("name2");
+    const number3El = document.getElementById("name3");
+    const answerEl = document.getElementById("answer");
+
+    const a = Number(number1El.value);
+    const b = Number(number2El.value);
+    const c = Number(number3El.value);
+    const total = sub(a, b, c);
+
+    answerEl.innerHTML = total;
+}
+
+function sub(x, y, z) {
+    return x - y - z;
+}
+
+function multiply() {
+    const number1El = document.getElementById("name1");
+    const number2El = document.getElementById("name2");
+    const number3El = document.getElementById("name3");
+    const answerEl = document.getElementById("answer");
+
+    const a = Number(number1El.value);
+    const b = Number(number2El.value);
+    const c = Number(number3El.value);
+    const total = multi(a, b, c);
+
+    answerEl.innerHTML = total;
+}
+
+function multi(x, y, z) {
+    return  x * y * z;
+}
+
+function divide() {
+    const number1El = document.getElementById("name1");
+    const number2El = document.getElementById("name2");
+    const number3El = document.getElementById("name3");
+    const answerEl = document.getElementById("answer");
+
+    const a = Number(number1El.value);
+    const b = Number(number2El.value);
+    const c = Number(number3El.value);
+    const total = div(a, b, c);
+    console.log(total);
+
+    answerEl.innerHTML = total;
+}
+
+function div(x, y, z) {
+    return  x / y / z;
 }
